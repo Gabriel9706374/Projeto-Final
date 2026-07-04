@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right,white,white,white);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+form{
+    background:white;
+    width:380px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+h2{
+    color:#002654;
+    margin-bottom:10px;
+}
+
+h3{
+    color:#0055A4;
+    margin-bottom:20px;
+}
+
+a{
+    display:block;
+    margin:12px 0;
+    padding:12px;
+    background:#002654;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+a:hover{
+    background:#EF4135;
+    transform:scale(1.05);
+}
+
+a:active{
+    transform:scale(0.98);
+}
+
+button{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+
+    padding:10px 20px;
+    background:#002654;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#EF4135;
+}
+
+.tema-escuro{
+    background:#121212;
+    color:white;
+}
+
+.tema-escuro form,
+.tema-escuro table,
+.tema-escuro main{
+    background:#1f1f1f;
+    color:white;
+}
+
+.tema-escuro nav{
+    background:#000;
+}
+
+.tema-escuro a{
+    color:white;
+}
+
+.tema-escuro th{
+    background:#003b7a;
+}
+
+.tema-escuro td{
+    border:1px solid #555;
+}

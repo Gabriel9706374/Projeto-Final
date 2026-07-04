@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Cadastro</title>
+        <link rel="stylesheet" href="Cadastro.css">
+    </head>
+    <body>
+        <h1 id="titulo-form"> Cadastro de Torcedor</h1>
+    <form>
+        <label> Nome:</label>
+        <input type="text" id="nome" required>
+        <div class="Data_de_Nacimento">
+        <label for="Data_de_Nacimento"> Data de Nacimento:</label>
+        <input type="date" id="data" name="Data_de_Nacimento" required>
+        </div>
+        <div class="E-Mail">
+        <label for="E-Mail"> E-Mail:</label>
+        <input type="email" id="email" name="E-Mail" required>
+        </div>
+        <label> Senha:</label>
+        <input type="password" id="senha" required>
+        <br>
+        <label> País:</label>
+        <select id="pais" required>
+            <option value="">Selecione um país</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguai">Uruguai</option>
+            <option value="Paraguai">Paraguai</option>
+            <option value="Chile">Chile</option>
+            <option value="Bolívia">Bolívia</option>
+            <option value="Peru">Peru</option>
+            <option value="Colômbia">Colômbia</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Equador">Equador</option>
+            <option value="México">México</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Espanha">Espanha</option>
+            <option value="França">França</option>
+            <option value="Alemanha">Alemanha</option>
+            <option value="Itália">Itália</option>
+            <option value="Reino Unido">Reino Unido</option>
+            <option value="Japão">Japão</option>
+        </select>
+        <br>
+        <label for="jogador_favorito">Jogador Favorito:</label>
+<select id="jogador_favorito" required>
+    <option value="">Selecione um jogador</option>
+
+    <option value="Kylian Mbappé">Kylian Mbappé</option>
+    <option value="Ousmane Dembélé">Ousmane Dembélé</option>
+    <option value="Mike Maignan">Mike Maignan</option>
+    <option value="William Saliba">William Saliba</option>
+    <option value="Dayot Upamecano">Dayot Upamecano</option>
+    <option value="Jules Koundé">Jules Koundé</option>
+    <option value="Theo Hernández">Theo Hernández</option>
+    <option value="Lucas Hernández">Lucas Hernández</option>
+    <option value="Aurélien Tchouaméni">Aurélien Tchouaméni</option>
+    <option value="Adrien Rabiot">Adrien Rabiot</option>
+    <option value="N'Golo Kanté">N'Golo Kanté</option>
+    <option value="Eduardo Camavinga">Eduardo Camavinga</option>
+    <option value="Warren Zaïre-Emery">Warren Zaïre-Emery</option>
+    <option value="Michael Olise">Michael Olise</option>
+    <option value="Bradley Barcola">Bradley Barcola</option>
+    <option value="Marcus Thuram">Marcus Thuram</option>
+    <option value="Randal Kolo Muani">Randal Kolo Muani</option>
+    <option value="Désiré Doué">Désiré Doué</option>
+</select>
+        <br>
+        <button type="submit" id="btnEnviar"> Enviar</button>
+    </form>
+    <script src="Cadastro.js"></script>
+    </body>
+    <footer>
+    </footer>
+</html>
